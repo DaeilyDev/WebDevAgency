@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 5rem;
+
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+}
+/* footer > p {
+  background-color: orange;
+  border-radius: 10%;
+} */
+
+.main {flex: 1;}
+.logo {text-align: center;}
+.creative {color: orange;}
+.tile-image {
+  float: left; 
+  height: 200px ;
+  margin-right: 50px;
+}
+.left {float: left;}
+.right {float: right;}
+.card {
+  display: inline-block;
+  width: 48%;
+}
+
+/* Media query for Smartphone uers */
+@media (max-width: 680px) {
+  body {background-color: beige;}
+  h1 {font-size: 3rem;}
+  .logo {width: 100px}
+  .tile-image {height: 100px}
+}
