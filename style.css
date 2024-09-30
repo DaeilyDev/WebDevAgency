@@ -47,4 +47,5 @@ footer {
   h1 {font-size: 3rem;}
   .logo {width: 100px}
   .tile-image {height: 100px}
+  .card {width: 100%;}
 }
